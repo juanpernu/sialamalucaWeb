@@ -7,7 +7,7 @@ const Menu = () => (
     <div className='menu'>
       <p onClick={() => Router.push('/')}>Inicio</p>
       <p onClick={() => Router.push('/')}>Sialamaluca</p>
-      <p onClick={() => Router.push('/')}>Nuestros entrenamientos</p>
+      <p onClick={() => Router.push('/#planification')}>Nuestros entrenamientos</p>
       <p onClick={() => Router.push('/')}>Donde estamos</p>
     </div>
   </div>

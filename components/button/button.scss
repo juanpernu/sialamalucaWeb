@@ -1,0 +1,15 @@
+button {
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #cf153a;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    background-color: #a10b29;
+  }
+}

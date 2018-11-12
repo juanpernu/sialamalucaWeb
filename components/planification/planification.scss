@@ -1,0 +1,30 @@
+.planification {
+
+  &-text{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 0 100px 100px;
+    max-width: 500px;
+
+    h3 {
+      color: #222; 
+      font-size: 40px;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+  
+    p {
+      color: #222;
+      font-size: 20px;
+      line-height: 25px;
+    } 
+  }
+
+  img {
+    width: 400px;
+    position: absolute;
+    bottom: 30px;
+    right: 10%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+  }
+}
